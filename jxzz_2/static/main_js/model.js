@@ -204,7 +204,7 @@ function initObject(index) {
     // console.log(materials);
 
     let loader = new THREE.STLLoader();
-    loader.load(models_info[index].url, function (geometry) {
+    loader.load('/jxzz_2'+models_info[index].url, function (geometry) {
        
         // //console.log(geometry);
         geometry.center();
