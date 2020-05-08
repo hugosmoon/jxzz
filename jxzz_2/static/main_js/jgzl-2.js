@@ -261,7 +261,7 @@ let Main = {
             var blob = new Blob([experiment_data_1+experiment_data_2+experiment_data_3+experiment_data_4], { type: "application/vnd.ms-excel" });
             var a = document.createElement("a");
             a.href=URL.createObjectURL(blob);
-            a.download="切削力实验数据-"+Date.now()+".xls";
+            a.download="加工质量实验数据-"+Date.now()+".xls";
             console.log(a)
             a.click();
         }
